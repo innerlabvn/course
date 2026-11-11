@@ -27,3 +27,7 @@
 .lang-switch a[aria-current=page]{background:#342663;color:#fff;box-shadow:0 3px 10px #30235920}
 .lang-switch a:focus-visible{outline:2px solid #66bbab;outline-offset:3px}
 @media(max-width:390px){.lang-switch a{font-size:10px;padding:7px 8px}.nav{gap:10px}}
+
+/* Keep logo, hamburger menu, and VI/EN switch usable on narrow phones. */
+@media(max-width:440px){.nav{gap:8px}.brand{gap:6px}.brand img{width:34px;height:34px}.brand-words strong{font-size:19px}.brand-words small{font-size:6px;letter-spacing:.14em}.menu-toggle{width:34px;flex-shrink:0}}
+@media(max-width:350px){.brand-words strong{font-size:17px}.brand img{width:31px;height:31px}.lang-switch a{padding:7px;font-size:10px}}
